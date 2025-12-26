@@ -1,0 +1,26 @@
+{
+  "name": "pve-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "@neondatabase/serverless": "^0.9",
+    "bcryptjs": "^2.4",
+    "jsonwebtoken": "^9.0",
+    "ethers": "^6.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/bcryptjs": "^2.4",
+    "@types/jsonwebtoken": "^9.0",
+    "typescript": "^5"
+  }
+}
